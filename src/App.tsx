@@ -1,6 +1,6 @@
 /** @jsxImportSource @emotion/react */
 import { css } from "@emotion/react";
-import FlagsProvider, { useFlagsState } from "./utils/useFormData";
+import FlagsProvider from "./utils/useFormData";
 import FeatureSection from "./FeatureSection";
 import data from "./data/flags.json";
 
