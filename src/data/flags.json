@@ -1,0 +1,95 @@
+{
+  "sections": {
+    "general": {
+      "label": "General",
+      "flags": [
+        "caseManagement",
+        "notifications",
+        "mapTimeline",
+        "massCommunications",
+        "viewsAndBriefings",
+        "trafficCameras"
+      ]
+    },
+    "alerts": {
+      "label": "Alerts",
+      "flags": [
+        "alertManager",
+        "alertRules"
+      ]
+    },
+    "settings": {
+      "label": "Settings",
+      "flags": [
+        "auditLog",
+        "users"
+      ]
+    }
+  },
+  "flags": {
+    "caseManagement": {
+      "label": "Case Management",
+      "on": true
+    },
+    "notifications": {
+      "label": "Notifications",
+      "on": true
+    },
+    "mapTimeline": {
+      "label": "Map Timeline",
+      "on": false
+    },
+    "massCommunications": {
+      "label": "Mass Communications",
+      "on": true
+    },
+    "viewsAndBriefings": {
+      "label": "Views and Briefings",
+      "on": false
+    },
+    "trafficCameras": {
+      "label": "Traffic Cameras",
+      "on": false
+    },
+    "alertManager": {
+      "label": "Alert Manager",
+      "on": true
+    },
+    "alertRules": {
+      "label": "Alert Rules",
+      "value": 8,
+      "on": false
+    },
+    "users": {
+      "label": "Users",
+      "on": true,
+      "flags": [
+        "usersAdd",
+        "usersDelete",
+        "usersEdit",
+        "maxUsers"
+      ]
+    },
+    "usersAdd": {
+      "label": "Users Add",
+      "on": true
+    },
+    "usersDelete": {
+      "label": "Users Delete",
+      "on": false
+    },
+    "usersEdit": {
+      "label": "Users Edit",
+      "on": false
+    },
+    "maxUsers": {
+      "label": "Max Users",
+      "value": 5,
+      "on": true
+    },
+    "auditLog": {
+      "label": "Audit Log",
+      "on": true
+    }
+  }
+}
