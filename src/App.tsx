@@ -5,7 +5,6 @@ import FlagsProvider from "./utils/useFlagsState";
 import FeatureSection from "./FeatureSection";
 import data from "./data/flags.json";
 
-cache.compat = true;
 const { sections } = data;
 
 const appStyles = css`

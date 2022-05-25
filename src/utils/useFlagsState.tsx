@@ -39,10 +39,7 @@ const FlagsProvider = ({ children }: Props) => {
       const disableChildFlags = childFlags && prevState[event.target.name].on;
       const updatedChildFlags = disableChildFlags
         ? Object.fromEntries(
-            childFlags.map((flag) => [
-              flag,
-              { ...prevState[flag], on: !prevState[event.target.name].on },
-            ])
+            childFlags.map((flag) => [flag, { ...prevState[flag], on: false }])
           )
         : {};
 
